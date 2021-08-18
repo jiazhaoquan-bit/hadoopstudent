@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class wordcountDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
-
+//1：这个啊
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf);
         //设置jar包路径
